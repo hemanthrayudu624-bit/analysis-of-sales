@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd 
-from prophet import prophet
+from prophet import Prophet
 import plotly.graph_objects as go
 import numpy as np
 
