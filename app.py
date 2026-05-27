@@ -46,4 +46,3 @@ st.plotly_chart(fig, width='stretch')
 st.subheader("Business Action Plan")
 st.success(f"Order {next_30*1.2:,.0f} units for next month. This prevents stock-out and saves ₹{(5000-next_30*1.2)*200:,.0f} vs old method.")
 
-!streamlit run app.py
